@@ -61,7 +61,9 @@ nav li a:hover{
 
 /*---- Main General ----*/
 main { 
+    padding: 20px;
     font-family: "STIX Two Text", serif;
+    background-color: rgb(121, 106, 84);
 }
 ul{
     text-align: right;
@@ -86,19 +88,22 @@ ul{
 .main-index{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin: 15px;
+    margin: 0px;
     text-align: center;
     color: rgb(243, 214, 190);
-    background-color: rgb(121, 106, 84);
+
+
 }
 .historia{
     font-style: italic;
     text-align: center;}
 
 .main-historia{
-        margin: 20px;
+        padding: 20px;
         text-align: center;
         color: rgb(243, 214, 190);
+
+        width: 100%;
 }
 .titulo{
         text-decoration: underline;
@@ -119,7 +124,7 @@ ul{
 
 .taller{
     margin-left: 30px;
-    height: 100%;
+    height: 70%;
 }
 
 .main-servicios{
@@ -137,6 +142,8 @@ ul{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: rgb(243, 214, 190);
+
+    width: 100%;
 }
 .formulario{
     display:flex;
@@ -174,10 +181,13 @@ ul{
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 1fr;
 
+    width: 100%;
+
     
 }
 .soli-turno { grid-area: 1 / 1 / 2 / 5; }
-.main-turno img { grid-area: 1 / 5 / 2 / 7; }
+.main-turno img { grid-area: 1 / 5 / 2 / 7; 
+border-radius: 8px;}
 
 .soli-turno{
     margin: 20px;
