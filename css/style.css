@@ -34,6 +34,30 @@ nav{
 }
 
 /*----- Nav -------*/
+
+.container-fluid{
+    background-color: #241503;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.navbar-nav a{
+    color: rgb(243, 214, 190);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar-nav a:hover{
+    color: rgb(243, 214, 190);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #5a3d1a;
+}
+
 nav li{
     display: inline-block;
     padding: 10px;
