@@ -240,7 +240,7 @@ footer h6{
 
 /*---- RESPONSIVE ----*/
 /* MOBILE LAST */
-@media (max-width: 400px) {
+@media (max-width: 800px) {
     .main-index{    
         display: flex;
         flex-wrap: wrap;
